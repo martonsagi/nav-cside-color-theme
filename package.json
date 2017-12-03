@@ -1,9 +1,23 @@
 {
     "name": "nav-cside-color-theme",
-    "displayName": "nav-cside-color-theme",
+    "displayName": "Dynamics NAV C/Side Theme",
     "description": "A VSCode color theme inspired by Microsoft Dynamics NAV C/Side Editor",
     "version": "0.0.1",
     "publisher": "martonsagi",
+    "license": "MIT",
+    "author": {
+        "name": "Márton Sági",
+        "email": "hello@martonsagi.me"
+    },
+    "homepage": "https://github.com/martonsagi/nav-cside-color-theme/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/martonsagi/nav-cside-color-theme/issues",
+        "email": "hello@martonsagi.me"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/martonsagi/nav-cside-color-theme.git"
+    },
     "engines": {
         "vscode": "^1.18.0"
     },
