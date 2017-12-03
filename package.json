@@ -1,7 +1,7 @@
 {
     "name": "nav-cside-color-theme",
     "displayName": "nav-cside-color-theme",
-    "description": "A color theme based on Microsoft Dynamics NAV C/Side Editor",
+    "description": "A VSCode color theme inspired by Microsoft Dynamics NAV C/Side Editor",
     "version": "0.0.1",
     "publisher": "martonsagi",
     "engines": {
