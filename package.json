@@ -1,0 +1,22 @@
+{
+    "name": "nav-cside-color-theme",
+    "displayName": "nav-cside-color-theme",
+    "description": "A color theme based on Microsoft Dynamics NAV C/Side Editor",
+    "version": "0.0.1",
+    "publisher": "martonsagi",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NAV C/Side",
+                "uiTheme": "vs",
+                "path": "./themes/nav-cside-color-theme.json"
+            }
+        ]
+    }
+}
