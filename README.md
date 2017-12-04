@@ -4,6 +4,10 @@ This is a light color theme based on colors from our beloved old C/Side code edi
 
 * Editor background is not #FFFFFF white on purpose. I figured #FCFCFC would be better for night-long coding sessions. :)
 
+### Preview
+
+![alt](https://raw.githubusercontent.com/martonsagi/nav-cside-color-theme/master/bin/preview.png)
+
 ### For more information
 * [Github repo](https://github.com/martonsagi/nav-cside-color-theme): feel free to fork it or send feedback/pull requests.
 

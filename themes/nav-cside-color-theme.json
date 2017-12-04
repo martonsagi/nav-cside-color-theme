@@ -5,7 +5,7 @@
 		"focusBorder": "#fafbfc",
 		"scrollbar.shadow": "#00000000",
 		"editor.background": "#fcfcfc",
-		"editor.foreground": "#24292e",
+		"editor.foreground": "#000000",
 		"editor.lineHighlightBackground": "#fffbdd",
 		"editorIndentGuide.background": "#eeeeee",
 		"editorLineNumber.foreground": "#cccccc",
@@ -14,7 +14,7 @@
 		"tab.activeBackground": "#ffffff",
 		"tab.inactiveBackground": "#fafbfc",
 		"tab.border": "#e1e4e8",
-		"tab.activeBorder": "#e36209",
+		"tab.activeBorder": "#0000FF",
 		"tab.inactiveForeground": "#586069",
 		"editorGroupHeader.tabsBackground": "#fafbfc",
 		"editorGroupHeader.tabsBorder": "#e1e4e8",
@@ -29,7 +29,7 @@
 		"activityBar.foreground": "#fafbfc",
 		"activityBarBadge.background": "#54a3ff",
 		"sideBar.background": "#eeeeee",
-		"sideBar.foreground": "#586069",
+		"sideBar.foreground": "#000000",
 		"sideBar.border": "#cccccc",
 		"sideBarTitle.foreground": "#24292e",
 		"sideBarSectionHeader.background": "#f1f2f3",
@@ -204,6 +204,34 @@
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#0000FF"
+			}
+		},
+		{
+			"scope": ["entity.name.trigger.al"],
+			"settings": {
+				"foreground": "#000080",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["entity.name.type.al"],
+			"settings": {
+				"foreground": "#0000FF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": ["entity.trigger.call1"],
+			"settings": {
+				"foreground": "#000080",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["constant.boolean.al"],
+			"settings": {
+				"foreground": "#0000FF",
+				"fontStyle": "italic"
 			}
 		},
 		{

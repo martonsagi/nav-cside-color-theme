@@ -1,0 +1,39 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:source.al",
+	"name": "ALextended",
+	"patterns": [
+		{
+			"begin": ".*",
+			"end": ".*",
+			"match": "\\b(?i:(true|false))\\b",
+			"name": "constant.boolean.al"
+		},
+		{
+			"begin": ".*",
+			"end": ".*",
+			"captures": {
+				"1": {
+					"name": "entity.name.type.al"
+				},
+				"2": {
+					"name": "entity.name.trigger.al"
+				}
+			},
+			"match": "\\b(?i:(trigger|procedure))\\b\\s+(\\w+(\\.\\w+)?)(\\(.*?\\))?\\s*",
+			"name": "meta.trigger.al"
+		},		
+		{
+			"begin": ".*",
+			"end": ".*",
+			"match": "\\w+\\.(\\w+)?",
+			"captures": {
+				"1": {
+					"name": "entity.trigger.call1"
+				}
+			},
+			"name": "entity.trigger.call.al"
+		}		
+	],
+	"scopeName": "al.extended"
+}
