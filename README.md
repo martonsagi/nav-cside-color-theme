@@ -11,4 +11,7 @@ This is a light color theme based on colors from our beloved old C/Side code edi
 ### For more information
 * [Github repo](https://github.com/martonsagi/nav-cside-color-theme): feel free to fork it or send feedback/pull requests.
 
+### Credits
+* [GitHub Plus Theme](https://github.com/thenikso/github-plus-theme) has been used as a base template because of its decent colors. It does not seem to have a specific license so I'm mentioning it to be sure.
+
 **Enjoy!**
