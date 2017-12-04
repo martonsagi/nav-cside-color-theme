@@ -20,7 +20,7 @@
 					"name": "entity.name.trigger.al"
 				}
 			},
-			"match": "\\b(?i:(trigger|procedure))\\b\\s+(\\w+(\\.\\w+)?)(\\(.*?\\))?\\s*",
+			"match": "\\b(?i:(trigger|procedure))\\b\\s+(\\w+(\\.\\w+)?)\\s*",
 			"name": "meta.trigger.al"
 		},		
 		{
@@ -33,7 +33,13 @@
 				}
 			},
 			"name": "entity.trigger.call.al"
-		}		
+		},
+		{
+			"begin": ".*",
+			"end": ".*",
+			"match": "([\/]+.*)",
+			"name": "comment.line.al.restored"
+		}
 	],
 	"scopeName": "al.extended"
 }
