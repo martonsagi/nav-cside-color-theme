@@ -80,6 +80,92 @@
 			}
 		},
 		{
+			"scope": [
+				"markup.fenced_code",
+				"markup.inline"
+			],
+			"settings": {
+				"foreground": "#6a737d"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#032f62"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"variable.language.this",
+				"variable.other.class",
+				"variable.other.constant",
+				"meta.property-name",
+				"meta.property-value",
+				"support"
+			],
+			"settings": {
+				"foreground": "#005cc5"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage.modifier",
+				"storage.type",
+				"support.function.node",
+				"support.type.property-name.json",
+				"punctuation.separator.key-value",
+				"punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#d73a49"
+			}
+		},
+		{
+			"scope": "variable.parameter.function",
+			"settings": {
+				"foreground": "#E27F2D"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.accessor",
+				"meta.group.braces.round.function.arguments",
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#24292eff"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"meta.function-call",
+				"meta.instance.constructor",
+				"entity.other.attribute-name",
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#6f42c1"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag",
+				"string.quoted",
+				"string.regexp",
+				"string.interpolated",
+				"string.template",
+				"keyword.other.template"
+			],
+			"settings": {
+				"foreground": "#22863a"
+			}
+		},
+		{
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#316bcd"
@@ -104,14 +190,24 @@
 			}
 		},
 		{
-			"scope": "string",
+			"scope": [
+				"string.quoted.single.al",
+				"string.al.restored"
+			],
 			"settings": {
 				"foreground": "#dd0000"
 			}
 		},
 		{
 			"scope": [
-				"keyword",
+				"keyword.other.applicationobject.al",
+				"keyword.other.metadata.al",
+				"keyword.other.property.al",
+				"keyword.other.builtintypes.al",
+				"keyword.control.al",
+				"keyword.operators.al",
+				"keyword.operators.property.al",
+				"keyword.operators.assigment.al",
 				"entity.name.type.al",
 				"constant.boolean.al"
 			],
@@ -136,14 +232,13 @@
 			}
 		},
 		{
-			"scope": "constant.numeric",
+			"scope": "constant.numeric.al",
 			"settings": {
 				"foreground": "#FF00FF"
 			}
 		},
 		{
 			"scope": [
-				"comment", 
 				"comment.line.al.restored"
 			],
 			"settings": {

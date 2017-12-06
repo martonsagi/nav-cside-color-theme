@@ -26,9 +26,9 @@
 		{
 			"begin": ".*",
 			"end": ".*",
-			"match": "\\w+\\.(\\w+)?",
+			"match": "(\\w*)\\.(\\w+)?",
 			"captures": {
-				"1": {
+				"2": {
 					"name": "entity.trigger.call1"
 				}
 			},
@@ -39,6 +39,12 @@
 			"end": ".*",
 			"match": "([\/]+.*)",
 			"name": "comment.line.al.restored"
+		},
+		{
+			"begin": ".*",
+			"end": ".*",
+			"match": "\\'.*?\\'",
+			"name": "string.al.restored"
 		}
 	],
 	"scopeName": "al.extended"
