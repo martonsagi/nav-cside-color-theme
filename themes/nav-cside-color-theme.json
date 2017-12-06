@@ -192,7 +192,7 @@
 		{
 			"scope": [
 				"string.quoted.single.al",
-				"string.al.restored"
+				"string.quoted.single.al.restored"
 			],
 			"settings": {
 				"foreground": "#dd0000"
@@ -200,14 +200,16 @@
 		},
 		{
 			"scope": [
+				"keyword.control.al",
+				"keyword.operators.al",				
+				"keyword.operators.property.al",
+				"keyword.operators.assigment.al",
+				"keyword.operators.comparison.al",
+				"keyword.operators.math.al",
 				"keyword.other.applicationobject.al",
 				"keyword.other.metadata.al",
 				"keyword.other.property.al",
 				"keyword.other.builtintypes.al",
-				"keyword.control.al",
-				"keyword.operators.al",
-				"keyword.operators.property.al",
-				"keyword.operators.assigment.al",
 				"entity.name.type.al",
 				"constant.boolean.al"
 			],
@@ -218,7 +220,7 @@
 		{
 			"scope": [
 				"entity.name.trigger.al", 
-				"entity.trigger.call1"
+				"entity.trigger.call1.al"
 			],
 			"settings": {
 				"foreground": "#000080",

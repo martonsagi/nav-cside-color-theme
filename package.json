@@ -2,7 +2,7 @@
     "name": "nav-cside-color-theme",
     "displayName": "Dynamics NAV C/Side Theme",
     "description": "A VSCode color theme inspired by Microsoft Dynamics NAV C/Side Editor",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "martonsagi",
     "license": "MIT",
     "author": {
@@ -27,6 +27,7 @@
     "keywords": [
         "AL", "Dynamics NAV", "CSIDE"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "grammars": [
             {

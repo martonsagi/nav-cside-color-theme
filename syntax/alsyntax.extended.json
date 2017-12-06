@@ -1,5 +1,5 @@
 {
-	"fileTypes": [],
+	"fileTypes": ["al", "dal"],
 	"injectionSelector": "L:source.al",
 	"name": "ALextended",
 	"patterns": [
@@ -29,7 +29,7 @@
 			"match": "(\\w*)\\.(\\w+)?",
 			"captures": {
 				"2": {
-					"name": "entity.trigger.call1"
+					"name": "entity.trigger.call1.al"
 				}
 			},
 			"name": "entity.trigger.call.al"
@@ -44,7 +44,7 @@
 			"begin": ".*",
 			"end": ".*",
 			"match": "\\'.*?\\'",
-			"name": "string.al.restored"
+			"name": "string.quoted.single.al.restored"
 		}
 	],
 	"scopeName": "al.extended"
