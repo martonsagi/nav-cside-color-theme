@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to the "nav-cside-color-theme" extension will be documented in this file.
 
+## [0.0.7] - 2017-12-20
+Update:
+- Coloring Date and DateTime constants to dark red.
+
+Fixed bugs:
+- Bug #2: Problems in coloring
+- Bug #3: Reserved words in field names are colored wrongly
+- Bug #4: Wrong coloring of fieldnames when property "TableRelation" is used
+
 ## [0.0.5] - 2017-12-06
 - Fix syntax colors for other files: use precise .al scopes instead of general scopes
 - Fix unwanted syntax coloring in string scope
