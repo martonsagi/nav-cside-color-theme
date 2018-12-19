@@ -29,7 +29,7 @@
 		{
 			"begin": ".*",
 			"end": ".*",
-			"match": "(\\w*)\\.(\\w+|\\\".*\\\")?",
+			"match": "(\\w*)\\.(\\w+|\\\".*?\\\")?",
 			"captures": {
 				"2": {
 					"name": "entity.trigger.call1.al"
