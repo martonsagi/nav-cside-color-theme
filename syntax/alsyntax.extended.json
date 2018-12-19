@@ -1,5 +1,8 @@
 {
-	"fileTypes": ["al", "dal"],
+	"fileTypes": [
+		"al",
+		"dal"
+	],
 	"injectionSelector": "L:source.al",
 	"name": "ALextended",
 	"patterns": [
@@ -20,9 +23,9 @@
 					"name": "entity.name.trigger.al"
 				}
 			},
-			"match": "\\b(?i:(trigger|procedure))\\b\\s+(\\w+(\\.\\w+)?)\\s*",
+			"match": "\\b(?i:(trigger|procedure|event))\\b\\s+(\\w+(\\.\\w+)?)\\s*",
 			"name": "meta.trigger.al"
-		},		
+		},
 		{
 			"begin": ".*",
 			"end": ".*",
@@ -37,7 +40,7 @@
 		{
 			"begin": ".*",
 			"end": ".*",
-			"match": "([\/]+.*)",
+			"match": "(\/\/.*)",
 			"name": "comment.line.al.restored"
 		},
 		{

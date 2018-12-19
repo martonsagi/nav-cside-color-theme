@@ -241,6 +241,7 @@
 		},
 		{
 			"scope": [
+				"comment",
 				"comment.line.al.restored"
 			],
 			"settings": {
