@@ -192,7 +192,8 @@
 		{
 			"scope": [
 				"string.quoted.single.al",
-				"string.quoted.single.al.restored"
+				"string.quoted.single.al.restored",
+				"constant.datetime.al"
 			],
 			"settings": {
 				"foreground": "#dd0000"
